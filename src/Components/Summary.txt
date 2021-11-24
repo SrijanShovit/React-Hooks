@@ -1,0 +1,8 @@
+1. useState hook lets us add state to functional component
+2. In classes, state is always an object
+3. With the useState hook, state doesn't have to be an object
+--it can be array,boolea,string,etc.
+4. If new state depends on previous state,pass a function to setter function
+-- the setter function receives previous state as argument
+5. When dealing with objects or arrays, always first spread state variable then
+call setter function
